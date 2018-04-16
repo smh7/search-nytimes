@@ -35,7 +35,7 @@ $(document).ready(function() {
      // Build cards for output
       for (i = 0; i < result.response.docs.length; i++) {
         output += `
-        <div class="card" style = "width: 18rem;">
+        <div class="card p-1 col-md-8 mx-auto" style = "width: 18rem;">
           <div class="card-body">
           <h5 class="card-title"> ${result.response.docs[i].snippet} </h5> 
           <h6 class="card-subtitle mb-2 text-muted">${result.response.docs[i].byline.original}</h6> 
